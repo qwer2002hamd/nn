@@ -11,21 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-  "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-  "repository": "https://github.com/jankarikiduniya/Session_Robot",
+  "repository": "https://github.com/qwer2002hamd/nn",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -50,7 +36,7 @@
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": false,
-      "value": "https://t.me/Alexa_Help"
+      "value": "https://t.me/ah07v"
     }
   }
 }
